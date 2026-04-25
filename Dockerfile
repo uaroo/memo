@@ -1,1 +1,1 @@
-FROM ghcr.io/usememos/memos:main
+FROM ghcr.io/usememos/memos:canary
