@@ -3,5 +3,7 @@ FROM ghcr.io/usememos/memos:canary
 WORKDIR /app
 COPY . .
 
-RUN cp /app/config.yaml /var/opt/memos/config.yaml
+RUN mkdir -p /etc/memos
+RUN cp /app/config.yaml /etc/memos/config.yaml
+
 
