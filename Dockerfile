@@ -1,3 +1,1 @@
-FROM ghcr.io/usememos/memos:0.27.1
-
-
+FROM ghcr.io/usememos/memos:main
