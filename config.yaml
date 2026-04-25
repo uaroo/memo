@@ -1,0 +1,9 @@
+mode: prod
+port: 5230
+
+db:
+  type: postgres
+  url: postgres://memo_dk7v_user:MU0p1QjwETmUE19vDdjxV2vVbUrEMTJ1@dpg-d7mbuptckfvc73ecph2g-a/memo_dk7v?sslmode=require
+
+storage:
+  type: local
